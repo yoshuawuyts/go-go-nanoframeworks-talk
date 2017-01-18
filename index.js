@@ -277,6 +277,21 @@ tree = morph(html\`<div>tiny tin bottle</div>\`, tree)
   `,
   html`
     <main class="mw7">
+      <h2 class="f1 ttu">
+        Batched async events
+      </h2>
+${code(`
+var nanotick = require('nanotick')
+var tick = nanotick()
+var callFunction = tick(function () {
+  // everything in here is now async, asap
+})
+callFunction()
+`)}
+    </main>
+  `,
+  html`
+    <main class="mw7">
       <h1 class="f-5 ttu">
         Act IV: Routing
       </h1>

@@ -20,6 +20,7 @@
     "choo-log": "^3.0.0",
     "highlight-syntax": "^3.0.2",
     "highlight-syntax-pastel": "^1.0.0",
+    "nanotick": "^1.1.4",
     "sheet-router": "^4.2.0",
     "sheetify": "^6.0.1",
     "tachyons": "^4.6.1"
