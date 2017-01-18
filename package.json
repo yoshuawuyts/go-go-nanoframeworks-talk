@@ -1,0 +1,29 @@
+{
+  "name": "go-go-nanoframeworks-talk",
+  "description": "Talk on browser framework fundamentals",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev -i tachyons",
+    "build": "bankai build -O",
+    "start": "bankai start",
+    "test": "standard && npm run deps"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "dependencies": {
+    "choo": "^4.0.3",
+    "choo-log": "^3.0.0",
+    "sheetify": "^6.0.1",
+    "tachyons": "^4.6.1"
+  },
+  "devDependencies": {
+    "bankai": "^5.2.1",
+    "brfs": "^1.4.3",
+    "dependency-check": "^2.7.0",
+    "standard": "^8.6.0"
+  }
+}
