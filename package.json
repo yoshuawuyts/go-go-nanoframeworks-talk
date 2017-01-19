@@ -2,7 +2,7 @@
   "name": "go-go-nanoframeworks-talk",
   "description": "Talk on browser framework fundamentals",
   "version": "1.0.0",
-  "private": true,
+  "main": "framework.js",
   "scripts": {
     "deps": "dependency-check . && dependency-check . --extra --no-dev -i tachyons",
     "build": "bankai build -O",
@@ -20,6 +20,8 @@
     "choo-log": "^3.0.0",
     "highlight-syntax": "^3.0.2",
     "highlight-syntax-pastel": "^1.0.0",
+    "nanomorph": "^2.1.2",
+    "nanoraf": "^2.1.2",
     "nanotick": "^1.1.4",
     "sheet-router": "^4.2.0",
     "sheetify": "^6.0.1",
@@ -30,5 +32,9 @@
     "brfs": "^1.4.3",
     "dependency-check": "^2.7.0",
     "standard": "^8.6.0"
-  }
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "Yoshua Wuyts <yoshuawuyts@gmail.com>",
+  "license": "MIT"
 }
